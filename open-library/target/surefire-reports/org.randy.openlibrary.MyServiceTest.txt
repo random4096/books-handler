@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.randy.openlibrary.MyServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.898 s <<< FAILURE! - in org.randy.openlibrary.MyServiceTest
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.randy.openlibrary.MyServiceTest$TestConfiguration]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'myService' for bean class [org.randy.openlibrary.service.MyService] conflicts with existing, non-compatible bean definition of same name and class [org.randy.openlibrary.MyService]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'myService' for bean class [org.randy.openlibrary.service.MyService] conflicts with existing, non-compatible bean definition of same name and class [org.randy.openlibrary.MyService]
+
