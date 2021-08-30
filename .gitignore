@@ -1,6 +1,7 @@
 HELP.md
 */target/*
-*/target/**
+**/target/*
+**/target/**
 open-library/target/*
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -33,3 +34,4 @@ build/
 
 ### VS Code ###
 .vscode/
+
